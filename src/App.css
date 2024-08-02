@@ -1,0 +1,67 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+#head1{
+ text-align: center;
+ color: white;
+ background-color: black;
+ font-family: Arial, Helvetica, sans-serif;
+ border-radius: 10px;
+ margin-top: 10px;
+}
+#head2{
+   font-weight:bold
+   ;
+   margin-top: 10px;
+   font-family: Arial, Helvetica, sans-serif;
+
+}
+form>div{
+   padding: px;
+   margin: 10px;
+}
+input{
+    width: 200px;
+    height: 30px;
+    border-radius: 5px;
+}
+#btn:hover{
+  color: white;
+  background-color: black;
+  border: none;
+  border-radius: 4px;
+  height: 25px;
+  width: 100px;
+  cursor: pointer;
+}
+#btn{
+  border: 2px solid gray;
+}
+
+
+.contactsHeader{
+   font-size: 20px;
+   font-weight: bold;
+   font-family: system-ui;
+   margin-left: 12px;
+   margin-top: 20px;
+   
+}
+
+.contact{
+   display: flex;
+   justify-content: space-around;
+   align-items: center;
+   gap: 20px;
+   height: 35px;
+   border: 2px solid;
+   margin-bottom: 2px;
+   margin-left: 12px;
+   margin-right: 5px;
+   background-color: #fdeff2;
+   font-size: 18px;
+   font-weight: 700;
+
+}
